@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monte seu orçamento | Agência KE</title>
+    <meta
+      name="description"
+      content="Monte seu orçamento com a Agência KE e envie por WhatsApp."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">KE</span>
+          <div>
+            <strong>Agência KE</strong>
+            <small>Comunicação & Marketing</small>
+          </div>
+        </div>
+
+        <a
+          class="whatsapp-button"
+          href="https://wa.me/553399567023"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Falar no WhatsApp
+        </a>
+      </header>
+
+      <main class="layout">
+        <section class="services-panel">
+          <div class="header-block">
+            <p class="eyebrow">Orçamento personalizado</p>
+            <h1>Monte seu orçamento</h1>
+          </div>
+
+          <div id="services-container"></div>
+        </section>
+
+        <aside class="summary-panel">
+          <div class="summary-card">
+            <p class="summary-label">Resumo do orçamento</p>
+
+            <div id="summary-items" class="summary-items"></div>
+
+            <div class="summary-row">
+              <span>Subtotal</span>
+              <strong id="subtotal-value">R$ 0,00</strong>
+            </div>
+
+            <div class="summary-row discount-row">
+              <span id="discount-label">Desconto do combo</span>
+              <strong id="discount-value">R$ 0,00</strong>
+            </div>
+
+            <div class="summary-row economy-row">
+              <span>Economia</span>
+              <strong id="economy-value">R$ 0,00</strong>
+            </div>
+
+            <div class="summary-row total-row">
+              <span>Total</span>
+              <strong id="total-value">R$ 0,00</strong>
+            </div>
+
+            <button id="whatsapp-submit" class="cta-button">
+              Enviar orçamento no WhatsApp
+            </button>
+
+            <button id="reset-button" class="secondary-button">
+              Limpar orçamento
+            </button>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
